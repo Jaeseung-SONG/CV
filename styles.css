@@ -29,6 +29,8 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 24px 72px; }
 .kicker { margin: 0 0 8px; color: var(--muted); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; }
 h1 { margin: 0 0 5px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(34px, 5vw, 48px); line-height: 1.15; font-weight: 600; }
 .position { font-size: 17px; font-weight: 700; margin: 18px 0 0; }
+.office-address { margin-top: 14px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.office-address span { color: var(--text); font-weight: 600; }
 .summary { max-width: 690px; margin: 24px 0 0; font-family: Georgia, 'Times New Roman', serif; font-size: 17px; line-height: 1.65; }
 .links { display: flex; gap: 18px; margin-top: 22px; }
 .profile-photo { width: 140px; height: 189px; object-fit: cover; border: 1px solid #e5e5e5; }
