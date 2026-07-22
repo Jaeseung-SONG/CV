@@ -1,0 +1,10 @@
+# Private source material
+*.docx
+*.doc
+*.pdf
+.cv_review/
+
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
