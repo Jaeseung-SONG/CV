@@ -42,14 +42,15 @@ p { margin: 0 0 8px; }
 .section-title-row { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; }
 .section-title-row h2 { margin-bottom: 0; }
 .section-title-row p, .note, .muted { color: var(--muted); font-size: 13px; }
-.note { margin: 5px 0 25px; }
+.subsection-heading { margin: 24px 0 1px; font-family: Georgia, 'Times New Roman', serif; font-size: 18px; }
+.note { margin: 0 0 18px; }
 .interest-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 55px; }
 .interest-grid p { color: var(--muted); }
 
 .publication-list { list-style: none; padding: 0; margin: 0; }
 .publication-list li { display: grid; grid-template-columns: 58px 1fr; gap: 16px; padding: 17px 0; border-top: 1px solid #eee; }
-.publication-list li.affiliation-snuh { border-top-color: var(--brand-blue); }
-.publication-list li.affiliation-dongguk { border-top-color: var(--dongguk-orange); }
+.publication-list li.affiliation-snuh { border-top: 2px solid var(--brand-blue); }
+.publication-list li.affiliation-dongguk { border-top: 2px solid var(--dongguk-orange); }
 .publication-list li:last-child { border-bottom: 1px solid #eee; }
 .publication-list p { margin: 0 0 2px; }
 .pub-year { color: var(--muted); font-size: 13px; }
@@ -64,14 +65,15 @@ summary { display: inline-block; cursor: pointer; color: var(--link); text-decor
 .full-list li { margin-bottom: 11px; }
 
 .entries article { display: grid; grid-template-columns: 175px 1fr; gap: 28px; padding: 22px 0; border-top: 1px solid #eee; }
-.entries article.affiliation-snuh { border-top-color: var(--brand-blue); }
-.entries article.affiliation-dongguk { border-top-color: var(--dongguk-orange); }
+.entries article.affiliation-snuh { border-top: 2px solid var(--brand-blue); }
+.entries article.affiliation-dongguk { border-top: 2px solid var(--dongguk-orange); }
 .entries article:last-child { border-bottom: 1px solid #eee; }
 .entry-date { color: var(--muted); font-size: 13px; }
 .institution { color: var(--muted); }
 .entries ul { margin: 8px 0 0; padding-left: 18px; }
 .compact article { padding: 18px 0; }
 .lower-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 55px; border-top: 1px solid var(--line); }
+.lower-grid-three { grid-template-columns: 1.15fr 1fr 1fr; gap: 34px; }
 .lower-grid .section { border-top: 0; }
 .simple-list { list-style: none; padding: 0; margin: 0; }
 .simple-list li { display: grid; grid-template-columns: 68px 1fr; gap: 10px; padding: 9px 0; border-top: 1px solid #eee; }
